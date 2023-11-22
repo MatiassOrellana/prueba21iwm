@@ -1,0 +1,6 @@
+@Prueba02DeWebMovel_HostAddress = http://localhost:5172
+
+GET {{Prueba02DeWebMovel_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

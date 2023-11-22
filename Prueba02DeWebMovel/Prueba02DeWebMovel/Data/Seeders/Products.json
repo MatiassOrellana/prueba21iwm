@@ -1,0 +1,37 @@
+[
+
+  {
+    "Name": "Papas",
+    "descripcion": "verduras de cultivos",
+    "price": 4,
+    "ImageUrl": "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcSm0Yi_nRWF41eEdhHLrOfaBsDM3tIUZeoi1FPT1_M3_ndYtgOPOxafhoMAI-ywT_Ac"
+  },
+  {
+    "Name": "Arroz",
+    "descripcion": "Por kilo",
+    "price": 5,
+    "ImageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.recetasnestle.cl%2Fcocina-nestle%2Ftips%2Ftodo-sobre-el-arroz&psig=AOvVaw0k3RQvIBGZSe2hEwa7qQi7&ust=1700761060039000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJj-_eqS2IIDFQAAAAAdAAAAABAJ"
+  },
+  {
+    "Name": "Aceite",
+    "descripcion": "Para freir y para ensaladas",
+    "price": 7,
+    "ImageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fprosudmarket.cl%2Fproducts%2Faceite-100-maravilla-900ml&psig=AOvVaw3xuySqJUKYviJUizUsc0-_&ust=1700761178581000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMDn7qOT2IIDFQAAAAAdAAAAABAF"
+  },
+  {
+    "Name": "Yougurt",
+    "descripcion": "Leche batida",
+    "price": 3,
+    "ImageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.alamy.es%2Fimagenes%2Fyougut.html&psig=AOvVaw1R0okh1wMTqh_tYE9_Eb14&ust=1700761151818000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOCqjZaT2IIDFQAAAAAdAAAAABAD"
+  }
+
+]
+public int Id { get; set; }
+
+        public string Name { get; set; }
+
+        public string descripcion {  get; set; }
+
+        public int price { get; set; }
+
+        public string ImageUrl { get; set; }
